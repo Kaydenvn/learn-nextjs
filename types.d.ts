@@ -2,7 +2,7 @@ type Result = {
   pageid: string;
   title: string;
   extract: string;
-  thumnail?: {
+  thumbnail?: {
     source: string;
     width: number;
     height: number;
@@ -11,6 +11,6 @@ type Result = {
 
 type SearchResult = {
   query?: {
-    page?: Result[];
+    pages?: Result[];
   };
 };
