@@ -8,7 +8,9 @@ export default function Navbar() {
     <nav className="bg-white p-2 sticky top-0 drop-shadow-xl z-10">
       <div className="md:h-14 h-20 mx-auto md:px-4 container flex items-center justify-around flex-wrap md:flex-nowrap">
         <div className="text-indigo-500 font-bold text-xl md:order-1">
-          <h1>Kayden</h1>
+          <Link href="/">
+            <h1>Kayden</h1>
+          </Link>
         </div>
 
         <div className="order-2">
